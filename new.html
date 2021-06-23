@@ -1,0 +1,27 @@
+<!DOCTYPE html>;
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="title" content="Test-page">
+    <meta name="description" content="Description text goes here">
+    <meta name="keywords" content="">
+    <meta name="generator" content="spryker">
+
+    <link rel="stylesheet" href="test.css">
+    <script>
+        // run this function when the document is loaded
+        window.onload = function() {
+
+            // create a couple of elements in an otherwise empty HTML page
+            const heading = document.createElement("h1");
+            const heading_text = document.createTextNode("Big Head!");
+            heading.appendChild(heading_text);
+            document.body.appendChild(heading);
+        }
+    </script>
+</head>
+<body>
+<p>Test text here</p>
+</body>
+</html>
